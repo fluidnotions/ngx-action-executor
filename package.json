@@ -1,6 +1,6 @@
 {
   "name": "@fluidnotions/ngx-action-executor",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "author": {
     "email": "justin.g.robinson@gmail.com",
     "name": "Justin Robinson"
@@ -10,12 +10,8 @@
     "url" : "git@github.com:fluidnotions/ngx-action-executor.git"
   },
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "build": "ng build ngx-action-executor --prod",
+    "publish": "npm run build && cd dist/ngx-action-executor && npm publish --access public"
   },
   "private": true,
   "dependencies": {
