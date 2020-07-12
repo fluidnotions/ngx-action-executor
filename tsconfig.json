@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/ngx-action-executor/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ngx-action-executor/tsconfig.spec.json"
+    }
+]
 }
